@@ -3,10 +3,6 @@ import mongoose from "mongoose";
 
 const setSchema = new Schema(
   {
-    title: {
-      type: String,
-      required: true,
-    },
     cards: {
       type: Schema.Types.Mixed,
       required: true,

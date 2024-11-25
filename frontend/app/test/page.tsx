@@ -15,7 +15,6 @@ export default function Home() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          title,
           cards,
         }),
       });
@@ -26,9 +25,7 @@ export default function Home() {
 
       const data = await response.json();
       console.log("Success:", data);
-      
-      // Reset form
-      setTitle("");
+    
       setCards([{ front: "", back: "" }]);
     } catch (error) {
       console.error("Error:", error);
@@ -44,15 +41,6 @@ export default function Home() {
       <h1 className="text-2xl font-bold mb-4">Create New Flashcard Set</h1>
       
       <div className="space-y-4">
-        <div>
-          <label className="block mb-2">Set Title:</label>
-          <input
-            type="text"
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-            className="w-full p-2 border rounded"
-          />
-        </div>
 
         {cards.map((card, index) => (
           <div key={index} className="border p-4 rounded">

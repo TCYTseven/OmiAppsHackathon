@@ -21,14 +21,13 @@ async function generateUniqueCode() {
 // add auth?
 export async function POST(req: any) {
   try {
-    const { title, cards } = await req.json();
+    const { cards } = await req.json();
 
     await connectMongoDB();
 
     const code = await generateUniqueCode();
 
     await Set.create({
-      title,
       cards,
       code,
     });
