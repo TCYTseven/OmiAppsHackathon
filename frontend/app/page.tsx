@@ -140,9 +140,11 @@ export default function Home() {
               <TableCell className="font-medium">{set.title}</TableCell>
               <TableCell>{set.code}</TableCell>
               <TableCell>
-                <Button variant="outline" size="sm">
-                  Study
-                </Button>
+                <Link href={`/study/${set.code}`}>
+                  <Button variant="outline" size="sm">
+                    Study
+                  </Button>
+                </Link>
               </TableCell>
             </TableRow>
           ))}
