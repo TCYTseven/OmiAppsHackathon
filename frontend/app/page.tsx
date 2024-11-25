@@ -42,48 +42,60 @@ export default function Home() {
   const handleAddSet = async () => {
     if (!title || !code) return;
 
-    try {
-      const response = await fetch("/api/sets/get", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          codes: [code],
-        }),
+    const isDuplicate = sets.some((set) => set.code === code);
+    if (isDuplicate) {
+      toast({
+        title: "Error: Duplicate set!",
+        description: "This set has already been added.",
       });
-
-      const { sets: apiSets } = await response.json();
-
-      if (!response.ok || apiSets.length === 0) {
-        toast({
-          title: `Error: Could not find set!`,
-          description: "Check your code again.",
+      return;
+    } else {
+      try {
+        const response = await fetch("/api/sets/get", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            codes: [code],
+          }),
         });
-        return;
+
+        const { sets: apiSets } = await response.json();
+
+        if (!response.ok || apiSets.length === 0) {
+          toast({
+            title: `Error: Could not find set!`,
+            description: "Check your code again.",
+          });
+          return;
+        }
+
+        const newSet = { title, code };
+        const updatedSets = [...sets, newSet];
+        setSets(updatedSets);
+
+        const futureDate = new Date();
+        futureDate.setDate(futureDate.getDate() + 400);
+
+        document.cookie = `flashcard-sets=${encodeURIComponent(
+          JSON.stringify(updatedSets)
+        )}; path=/; samesite=strict; expires=${futureDate.toUTCString()}`;
+
+        toast({
+          title: `Set Added: ${title}`,
+          description: "Start studying!",
+        });
+
+        setTitle("");
+        setCode("");
+      } catch (error) {
+        console.error("Error:", error);
+        toast({
+          title: "Error",
+          description: "Something went wrong. Please try again.",
+        });
       }
-
-      const newSet = { title, code };
-      const updatedSets = [...sets, newSet];
-      setSets(updatedSets);
-
-      document.cookie = `flashcard-sets=${encodeURIComponent(
-        JSON.stringify(updatedSets)
-      )}; path=/; samesite=strict`;
-
-      toast({
-        title: `Set Added: ${title}`,
-        description: "Start studying!",
-      });
-
-      setTitle("");
-      setCode("");
-    } catch (error) {
-      console.error("Error:", error);
-      toast({
-        title: "Error",
-        description: "Something went wrong. Please try again.",
-      });
     }
   };
 
