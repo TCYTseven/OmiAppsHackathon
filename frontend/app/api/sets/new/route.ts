@@ -1,6 +1,6 @@
 import { Set } from "@/models/set";
 import { connectMongoDB } from "@/lib/db";
-import { NextResponse } from "next/server";
+import { NextResponse, NextRequest } from "next/server";
 
 async function generateUniqueCode() {
   let code;
@@ -19,7 +19,7 @@ async function generateUniqueCode() {
 }
 
 // add auth?
-export async function POST(req: any) {
+export async function POST(req: NextRequest) {
   try {
     const { cards } = await req.json();
 

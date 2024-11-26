@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
 export default function Home() {
-  const [title, setTitle] = useState("");
   const [cards, setCards] = useState([{ front: "", back: "" }]);
 
   const handleSubmit = async () => {
