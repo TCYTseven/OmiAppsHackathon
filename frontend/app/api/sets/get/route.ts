@@ -17,8 +17,6 @@ export async function POST(req: Request) {
 
     const sets = await Set.find({ code: { $in: codes } });
 
-    console.log(sets);
-
     return NextResponse.json({ sets }, { status: 200 });
   } catch (error) {
     return NextResponse.json(
