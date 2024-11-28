@@ -8,11 +8,11 @@ export async function GET(req) {
     );
     const state = req[stateSymbol];
     const searchParams = state.url.searchParams;
-    const uri = searchParams.get("uri");
+    const uid = searchParams.get("uid");
 
     try {
         await connectMongoDB();
-        const user = await User.findOne({ omiUid: uri });
+        const user = await User.findOne({ omiUid: uid });
         
         return NextResponse.json({ 
             is_setup_completed: user !== null 
