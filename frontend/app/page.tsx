@@ -172,99 +172,95 @@ export default function Home() {
 
 
   return (
-      <div className="mx-16 my-8">
-        <h1 className="font-bold text-3xl mb-4">Automated Flashcards</h1>
-        <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-          <DialogTrigger>
-            <Button>Add new set</Button>
-          </DialogTrigger>
-          <DialogContent>
-            <DialogHeader>
-              <DialogTitle>Add new set</DialogTitle>
-              <DialogDescription>
-                <Input
-                  placeholder="Title"
-                  className="inline-block w-1/2"
-                  value={title}
-                  onChange={(e) => setTitle(e.target.value)}
-                />
-                <Input
-                  placeholder="Your code"
-                  className="inline-block ml-2 w-[calc(50%-0.5rem)]"
-                  value={code}
-                  onChange={(e) => setCode(e.target.value)}
-                />
-                <Button className="mt-2" onClick={handleAddSet}>
-                  Create
-                </Button>
-              </DialogDescription>
-            </DialogHeader>
-          </DialogContent>
-        </Dialog>
-        <p className="mt-4 mb-8">
-          Obtain your set code after making a memory using{" "}
-          <Link
-            href="https://www.omi.me/"
-            target="_blank"
-            className="underline"
-          >
-            Omi
-          </Link>
-          .
-        </p>
-        <h1 className="font-bold text-3xl mb-4">Your Sets</h1>
+    <div className="mx-8 my-8 sm:mx-16">
+      <h1 className="font-bold text-3xl mb-4">Automated Flashcards</h1>
+      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+        <DialogTrigger>
+          <Button>Add new set</Button>
+        </DialogTrigger>
+        <DialogContent className="rounded-md">
+          <DialogHeader>
+            <DialogTitle>Add new set</DialogTitle>
+            <DialogDescription>
+              <Input
+                placeholder="Title"
+                className="inline-block w-1/2"
+                value={title}
+                onChange={(e) => setTitle(e.target.value)}
+              />
+              <Input
+                placeholder="Your code"
+                className="inline-block ml-2 w-[calc(50%-0.5rem)]"
+                value={code}
+                onChange={(e) => setCode(e.target.value)}
+              />
+              <Button className="mt-2" onClick={handleAddSet}>
+                Create
+              </Button>
+            </DialogDescription>
+          </DialogHeader>
+        </DialogContent>
+      </Dialog>
+      <p className="mt-4 mb-8">
+        Obtain your set code after making a memory using{" "}
+        <Link href="https://www.omi.me/" target="_blank" className="underline">
+          Omi
+        </Link>
+        .
+      </p>
+      <h1 className="font-bold text-3xl mb-4">Your Sets</h1>
 
-        <Table>
-          <TableHeader>
-            <TableRow>
-              <TableHead>Title</TableHead>
-              <TableHead>Code</TableHead>
-              <TableHead>Actions</TableHead>
+      <Table>
+        <TableHeader>
+          <TableRow>
+            <TableHead>Title</TableHead>
+            <TableHead>Code</TableHead>
+            <TableHead>Actions</TableHead>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          {sets.map((set, index) => (
+            <TableRow key={index}>
+              <TableCell className="font-medium">{set.title}</TableCell>
+              <TableCell>{set.code}</TableCell>
+              <TableCell className="w-1/3">
+                <div className="flex items-center">
+                  <Link href={`/study/${set.code}`}>
+                    <Button variant="outline" size="sm">
+                      Study
+                    </Button>
+                  </Link>
+                  <Link href={`/quiz/${set.code}`}>
+                    <Button variant="outline" size="sm" className="ml-2">
+                      Quiz
+                    </Button>
+                  </Link>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="ml-2"
+                    onClick={() => copyLink(set.code, set.title)}
+                  >
+                    Share
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="ml-2 flex items-center justify-center"
+                    onClick={() => handleRemoveSet(set.code)}
+                  >
+                    <Trash
+                      color="black"
+                      size={16}
+                      className="inline-block align-middle"
+                    />
+                  </Button>
+                </div>
+              </TableCell>
             </TableRow>
-          </TableHeader>
-          <TableBody>
-            {sets.map((set, index) => (
-              <TableRow key={index}>
-                <TableCell className="font-medium">{set.title}</TableCell>
-                <TableCell>{set.code}</TableCell>
-                <TableCell className="w-1/3">
-                  <div className="flex items-center">
-                    <Link href={`/study/${set.code}`}>
-                      <Button variant="outline" size="sm">
-                        Study
-                      </Button>
-                    </Link>
-                    <Link href={`/quiz/${set.code}`}>
-                      <Button variant="outline" size="sm" className="ml-2">
-                        Quiz
-                      </Button>
-                    </Link>
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="ml-2"
-                      onClick={() => copyLink(set.code, set.title)}
-                    >
-                      Share
-                    </Button>
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="ml-2 flex items-center justify-center"
-                      onClick={() => handleRemoveSet(set.code)}
-                    >
-                      <Trash
-                        color="black"
-                        size={16}
-                        className="inline-block align-middle"
-                      />
-                    </Button>
-                  </div>
-                </TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </div>
+          ))}
+        </TableBody>
+      </Table>
+    </div>
   );
 }
