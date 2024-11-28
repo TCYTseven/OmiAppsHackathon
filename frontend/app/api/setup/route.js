@@ -20,7 +20,7 @@ export async function GET(req) {
 
     } catch (error) {
         return NextResponse.json({ 
-            error: "Failed to check user setup status" 
+            error: `Failed to check user setup status: ${error}` 
         }, { status: 500 });
     }
 }

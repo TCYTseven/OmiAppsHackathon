@@ -27,7 +27,7 @@ export default function Setup() {
             } catch (error) {
                 toast({
                     title: "Error",
-                    description: "Failed to check setup status",
+                    description: `Failed to check setup status: ${error}`,
                     variant: "destructive"
                 })
             }
@@ -62,7 +62,7 @@ export default function Setup() {
         } catch (error) {
             toast({
                 title: "Error",
-                description: "Failed to create user",
+                description: `Failed to create user: ${error}`,
                 variant: "destructive"
             })
         } finally {
