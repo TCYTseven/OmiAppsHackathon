@@ -35,13 +35,32 @@ interface TitleChange {
   newTitle: string;
 }
 
+type Card = {
+  front: string;
+  back: string;
+};
+
+type Set = {
+  _id: string;
+  cards: Card[];
+  code: string;
+  title: string;
+  uid: string;
+  createdAt: string; // ISO 8601 date string
+  updatedAt: string; // ISO 8601 date string
+  __v: number;
+};
+
+type FlashcardSetArray = Set[];
+
+
 export default function Home() {
   const [title, setTitle] = useState("");
   const [code, setCode] = useState("");
   const [sets, setSets] = useState<FlashcardSet[]>([]);
   const [uid, setUid] = useState("");
   const [isDialogOpen, setIsDialogOpen] = useState(false);
-  const [sync, setSync] = useState({});
+  const [sync, setSync] = useState<{ uid? : string | null, username? : string, sets?: FlashcardSetArray }>({ uid: null });
   const [editingSet, setEditingSet] = useState<FlashcardSet | null>(null);
   const [newTitle, setNewTitle] = useState("");
 
@@ -63,6 +82,7 @@ export default function Home() {
       const sync = await getSync();
       if (sync) {
         setSync(sync);
+        console.log(sync);
         let syncedSets = sync.sets;
 
         // Get deleted synced sets
@@ -425,7 +445,7 @@ export default function Home() {
           </DialogHeader>
         </DialogContent>
       </Dialog>
-      {sync ? (
+      {sync?.uid ? (
         <p className="mt-4 mb-8">
           Make memories on your Omi and see your sets here.
         </p>
