@@ -12,6 +12,14 @@ const setSchema = new Schema(
       required: true,
       unique: true,
     },
+    title: {
+      type: String,
+      required: true,
+    },
+    uid: {
+      type: String,
+      required: true
+    }
   },
   { timestamps: true }
 );

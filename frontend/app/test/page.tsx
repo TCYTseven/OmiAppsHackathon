@@ -7,6 +7,9 @@ export default function Home() {
   const [cards, setCards] = useState([{ front: "", back: "" }]);
 
   const handleSubmit = async () => {
+    console.log(cards);
+    const uid = "T6AdXK2jKddPmIv01YM0NZc5QVM2";
+    const title = "Automatically Created Set"
     try {
       const response = await fetch("/api/sets/new", {
         method: "POST",
@@ -15,11 +18,13 @@ export default function Home() {
         },
         body: JSON.stringify({
           cards,
+          uid,
+          title
         }),
       });
 
       if (!response.ok) {
-        throw new Error("Failed to create set");
+        throw new Error(`Failed to create set ${response}`);
       }
 
       const data = await response.json();
