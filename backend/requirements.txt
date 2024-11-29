@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+httpx
+spacy
+cerebras_cloud_sdk
+
+
+#python -m spacy download en_core_web_sm
