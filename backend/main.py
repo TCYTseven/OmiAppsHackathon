@@ -4,12 +4,23 @@ import httpx
 import json
 import spacy
 from cerebras.cloud.sdk import Cerebras
+from dotenv import load_dotenv
+import os
 
 
 nlp = spacy.load("en_core_web_sm")
 
 
-API_KEY = "csk-p495nr4ywnnjxjdj3xmy66pvepwfkcp34hnjx3jf2j42m4pm"
+load_dotenv(dotenv_path=".env.local")
+
+API_KEY = os.getenv("CEREBRAS_API_KEY")
+
+if API_KEY:
+    cerebras_client = Cerebras(api_key=API_KEY)
+    print("API key loaded")
+else:
+    print("Failed to load API key")
+
 cerebras_client = Cerebras(api_key=API_KEY)
 
 app = FastAPI()
@@ -114,7 +125,7 @@ async def process_transcript(request: Request):
         flashcards_list = [{"front": flashcard.front, "back": flashcard.back} for flashcard in flashcards]
         output_data = {"cards": flashcards_list}
 
-        with open("4sigmanewflash.json", "w", encoding="utf-8") as f:
+        with open("exampleCards.json", "w", encoding="utf-8") as f:
             json.dump(output_data, f, ensure_ascii=False, indent=4)
 
         return {
