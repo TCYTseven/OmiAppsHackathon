@@ -1,0 +1,4 @@
+# Ignore the scraps folder
+scraps/
+*.local
+/.env.local
