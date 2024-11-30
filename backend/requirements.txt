@@ -3,6 +3,7 @@ uvicorn
 httpx
 spacy
 cerebras_cloud_sdk
+python-dotenv
 
 
 #python -m spacy download en_core_web_sm
