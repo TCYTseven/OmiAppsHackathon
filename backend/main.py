@@ -137,7 +137,7 @@ async def process_transcript(request: Request):
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/send-cards")
-async def send_cards(uid: str = Query(...), request: Request):
+async def send_cards(request: Request, uid: str = Query(...)):
     try:
         payload = await request.json()
         flashcards = payload.get("flashcards", [])
