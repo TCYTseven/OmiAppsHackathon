@@ -1,19 +1,34 @@
 import json
 import httpx
+import time
+from main import create_flashcards
+import asyncio
 
-# Load the example payload with UTF-8 encoding
-with open("examplepayload.json", "r", encoding="utf-8") as file:
-    payload = json.load(file)
+async def main():
+    # Read the example payload
+    with open("bio-examplepayload.json", "r", encoding="utf-8") as f:
+        payload = json.load(f)
 
-# Define the API URL
-api_url = "http://127.0.0.1:8000/webhook"  # Adjust to your local FastAPI URL if needed
+    transcript_segments = payload.get("transcript_segments", [])
+    transcript = " ".join(segment["text"] for segment in transcript_segments)
 
-# Send the POST request with a higher timeout
-timeout = httpx.Timeout(30.0)  # Set a 30-second timeout
+    # Generate flashcards
+    flashcards = create_flashcards(transcript, max_cards=20)
+    flashcards_list = [{"front": flashcard.front, "back": flashcard.back} for flashcard in flashcards]
 
-with httpx.Client(timeout=timeout) as client:
-    response = client.post(api_url, json=payload)
+    # Send flashcards to the API to get the access code
+    async with httpx.AsyncClient() as client:
+        response = await client.post(
+            "https://omi-apps-hackathon.vercel.app/api/sets/new",
+            json={"cards": flashcards_list, "uid": "your-uid", "title": "Unnamed Set"}
+        )
 
-# Print the response
-print("Status Code:", response.status_code)
-print("Response JSON:", response.json())
+    if response.status_code == 200:
+        response_data = response.json()
+        set_code = response_data.get("code", "Unknown")
+        print(f"Set code: {set_code}")
+    else:
+        print(f"The code is: {response.text}")
+
+if __name__ == "__main__":
+    asyncio.run(main())

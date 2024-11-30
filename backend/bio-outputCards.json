@@ -1,0 +1,84 @@
+{
+    "cards": [
+        {
+            "front": "What is the goal of the transcription process in cells?",
+            "back": "The goal of transcription is to create an RNA copy of a segment of DNA. This process is essential for the synthesis of proteins and genetic information."
+        },
+        {
+            "front": "What is the purpose of applying a specific rubric to develop understanding of a biological process?",
+            "back": "To develop a functional understanding of the process, allowing for a deeper comprehension of its underlying mechanisms and dynamics."
+        },
+        {
+            "front": "What is the visual outcome of a process or situation?",
+            "back": "The final appearance or result."
+        },
+        {
+            "front": "Has natural evolution provided alternative solutions to complex problems?",
+            "back": "Yes, it appears nature has solved various problems in unique and often innovative ways through the process of natural evolution."
+        },
+        {
+            "front": "What is the goal of transcription in relation to DNA molecules?",
+            "back": "The goal of transcription is to create an RNA copy of a single strand of a double-stranded DNA molecule."
+        },
+        {
+            "front": "What is the stopping point of the machine?",
+            "back": "The machine should stop at a predetermined or designated point. This ensures safety, efficiency, and proper function."
+        },
+        {
+            "front": "What is the purpose of encoding information about start and stop sites in DNA sequencing?",
+            "back": "To enable machines to read and understand the location information for accurate genetic analysis."
+        },
+        {
+            "front": "What rate are RNA copies synthesized at during replication?",
+            "back": "RNA copies are synthesized quickly, at a rate that allows for the rapid duplication of genetic material in the absence of a nucleic acid template."
+        },
+        {
+            "front": "What level of information do we require to start understanding a process?",
+            "back": "At this point, good enough information is sufficient."
+        },
+        {
+            "front": "What are the molecular similarities between RNA and DNA?",
+            "back": "The building blocks of RNA are very similar to those of DNA, with both using nucleotide bases (such as adenine, guanine, cytosine, and uracil)."
+        },
+        {
+            "front": "What are the main components of a nucleotide found in RNA?",
+            "back": "A nucleotide is composed of a ribose sugar, a nitrogenous base, and three phosphate groups."
+        },
+        {
+            "front": "What is a promoter in the context of DNA?",
+            "back": "A promoter is a DNA sequence that allows proteins to initiate transcription by binding to it, starting the process. This sequence is essential for the expression of genes in a cell."
+        },
+        {
+            "front": "What is the typical location of a promoter in relation to a gene?",
+            "back": "The promoter exists upstream of the gene it regulates. This allows for the initiation of transcription by binding regulatory proteins."
+        },
+        {
+            "front": "What is the main role of the sequence of a promoter in a gene?",
+            "back": "The sequence of a promoter determines the frequency of transcription, which can be all the time, some of the time, or infrequently of the corresponding coding portion of the gene."
+        },
+        {
+            "front": "What are the areas near the initiation site where similar sequences are commonly found in promoters across various species?",
+            "back": "These areas are located upstream and include -10 and -35 regions."
+        },
+        {
+            "front": "What regulates the production of transcripts?",
+            "back": "This mechanism helps control the number of transcripts made and their frequency of creation. It ensures transcripts are produced when needed and not excessively."
+        },
+        {
+            "front": "What is a notable feature of the -10 consensus sequence in bacterial cells?",
+            "back": "The -10 consensus sequence is often AT rich, typically resembling the sequence TATAAT."
+        },
+        {
+            "front": "What is the specific DNA sequence recognized by protein σ?",
+            "back": "The sequence TTGACA is specifically recognized and bound by the protein σ."
+        },
+        {
+            "front": "What happens after a protein-DNA interaction is made in the transcription process?",
+            "back": "After a protein-DNA interaction is made, the subunits of the core RNA polymerase bind to the site."
+        },
+        {
+            "front": "What role does the AT-rich -10 region play in the process of DNA unwinding during transcription initiation?",
+            "back": "The AT-rich -10 region facilitates the unwinding of the DNA template, making it easier for several phosphodiester bonds to be formed. This unwinding allows the transcriptional machinery to access the DNA template."
+        }
+    ]
+}

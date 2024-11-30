@@ -1,0 +1,84 @@
+{
+    "cards": [
+        {
+            "front": "What is transcription in the context of DNA?",
+            "back": "Transcription is a biological process where a segment of DNA is used to create a copy of RNA. This process involves creating a complementary strand of RNA from a single strand of DNA, allowing the genetic information to be copied and utilized by the cell."
+        },
+        {
+            "front": "What is the purpose of the Energy Story rubric in the context of transcription?",
+            "back": "The Energy Story rubric is used to develop a functional understanding of transcription by guiding a systematic approach to the process. This helps ensure that all key steps are considered and understood, ultimately enhancing comprehension."
+        },
+        {
+            "front": "What will be the final outcome?",
+            "back": "The final outcome is the result or conclusion after a process or series of events has been completed."
+        },
+        {
+            "front": "What is the Design Challenge approach?",
+            "back": "The Design Challenge approach involves considering a problem from a different perspective, focusing on the process and goals rather than specific details. This method helps in developing new ideas and creative solutions to complex issues. It encourages thinking outside the box to achieve a desired outcome."
+        },
+        {
+            "front": "What is the main goal of transcription in DNA replication?",
+            "back": "The main goal of transcription is to create an RNA copy of a single strand of a double-stranded DNA molecule, also known as the template strand. This process involves reading the genetic information from the DNA molecule and using it to synthesize a complementary RNA molecule."
+        },
+        {
+            "front": "What is the purpose of using Design Challenge thinking in robot development?",
+            "back": "The purpose of using Design Challenge thinking is to identify problems and subproblems that need to be solved by the robot, allowing for a structured approach to addressing its limitations and improving overall performance."
+        },
+        {
+            "front": "What is the stopping point of a machine?",
+            "back": "The stopping point of a machine is determined by the user or by a predetermined condition, such as reaching a specific goal or location."
+        },
+        {
+            "front": "What methods are used to encode start and stop sites for machine reading?",
+            "back": "Encoding of start and stop sites can be accomplished through various methods, such as the use of specific codes or tags that provide machines with the necessary information to process and identify these points."
+        },
+        {
+            "front": "What is a potential energy concern in planning a process?",
+            "back": "Energy requirements and fuel sourcing are key considerations to ensure the process is feasible and sustainable."
+        },
+        {
+            "front": "What stage have we reached in understanding the process?",
+            "back": "We have reached a stage where we can gain a good feel for the process."
+        },
+        {
+            "front": "What are the basic components of RNA similar to in terms of chemistry?",
+            "back": "They are similar to the building blocks of DNA, specifically nucleotides. These nucleotides consist of a nitrogen base, a sugar molecule called deoxyribose in DNA and a different sugar molecule called ribose in RNA, and a phosphate group."
+        },
+        {
+            "front": "What are the basic components of a nucleotide in RNA?",
+            "back": "A nucleotide consists of a ribose sugar, a nitrogenous base, and three phosphate groups."
+        },
+        {
+            "front": "What is the main difference between uracil and thymine?",
+            "back": "Uracil is missing a methyl functional group that is found in thymine, making their structures similar but not identical. This distinction is crucial in understanding the roles these nucleobases play in DNA and RNA."
+        },
+        {
+            "front": "What must proteins responsible for transcription be able to do first?",
+            "back": "They must be able to recognize the beginning of the DNA element to be copied."
+        },
+        {
+            "front": "What is a promoter in a DNA sequence?",
+            "back": "A promoter is a specific DNA sequence where proteins bind and initiate transcription, allowing genetic information to be expressed. It serves as a regulatory site where the transcription process begins, allowing cells to control gene expression. This binding facilitates the creation of a RNA molecule from DNA."
+        },
+        {
+            "front": "What does the specific sequence of a promoter determine in a gene?",
+            "back": "The specific sequence of a promoter determines whether the corresponding coding portion of the gene is transcribed all the time, some of the time, or infrequently."
+        },
+        {
+            "front": "What are some common elements found in similar sequences across different species?",
+            "back": "Although certain sequences may differ in structure, a few key elements are often conserved."
+        },
+        {
+            "front": "How do sequence variations affect gene expression?",
+            "back": "Sequence variations can influence the strength of the transcriptional machinery binding to the promoter to initiate transcription. This can lead to changes in gene expression, resulting in different levels of mRNA produced by that gene."
+        },
+        {
+            "front": "What type of DNA sequence is typically found in the -10 region in bacterial cells?",
+            "back": "The -10 region in bacterial cells is usually an AT-rich sequence, often featuring the sequence TATAAT."
+        },
+        {
+            "front": "What is the function of the sequence TTGACA within a gene promoter?",
+            "back": "This sequence is recognized and bound by the protein σ, allowing it to regulate gene expression."
+        }
+    ]
+}
