@@ -417,7 +417,7 @@ export default function Home() {
 
   return (
     <div className="mx-8 my-8 sm:mx-16">
-      <h1 className="font-bold text-3xl mb-4">Automated Flashcards</h1>
+      <h1 className="font-bold text-3xl mb-4">ListenLearn</h1>
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
         <DialogTrigger>
           <Button>Add new set</Button>

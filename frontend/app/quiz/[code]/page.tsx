@@ -5,10 +5,23 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useParams } from "next/navigation";
 import { Progress } from "@/components/ui/progress";
+import Link from "next/link";
 
 interface Flashcard {
   front: string;
   back: string;
+}
+
+interface QuizResult {
+  date: string;
+  score: number;
+  totalQuestions: number;
+  answers: {
+    question: string;
+    userAnswer: string;
+    correctAnswer: string;
+    isCorrect: boolean;
+  }[];
 }
 
 export default function QuizPage() {
@@ -67,6 +80,52 @@ export default function QuizPage() {
     }
   }, [currentIndex, flashcards]);
 
+  const saveQuizResult = (userAnswers: any) => {
+      const quizResult: QuizResult = {
+        date: new Date().toISOString(),
+        score,
+        totalQuestions: flashcards.length,
+        answers: flashcards.map((flashcard, index) => ({
+          question: flashcard.front,
+          userAnswer: userAnswers[index],
+          correctAnswer: flashcard.back,
+          isCorrect: userAnswers[index] === flashcard.back,
+        })),
+      };
+
+      console.log(flashcards);
+      console.log(userAnswers);
+
+      const storedData = localStorage.getItem(`quiz-results-${params.code}`);
+
+      let results: QuizResult[] = [];
+      if (storedData) {
+        results = JSON.parse(storedData).results;
+      }
+
+      results.push(quizResult);
+
+     const futureDate = new Date();
+     futureDate.setDate(futureDate.getDate() + 400);
+
+     const quizData = {
+       results: results,
+       expires: futureDate.getTime(),
+     };
+
+     localStorage.setItem(
+       `quiz-results-${params.code}`,
+       JSON.stringify(quizData)
+     );
+
+     const stored = localStorage.getItem(`quiz-results-${params.code}`);
+     if (stored) {
+       console.log("Data successfully stored:", JSON.parse(stored));
+     } else {
+       console.error("Failed to store data in localStorage.");
+     }
+  };
+
   const handleNext = () => {
     if (!selectedAnswer) return;
 
@@ -82,6 +141,7 @@ export default function QuizPage() {
       setSelectedAnswer("");
     } else {
       setShowResults(true);
+      saveQuizResult([...userAnswers, selectedAnswer]);
     }
   };
 
@@ -143,6 +203,11 @@ export default function QuizPage() {
               </div>
             ))}
           </div>
+          <Link href={`/progress/${params.code}`}>
+          <Button className="mt-4 w-full">
+            See Progress
+          </Button>
+          </Link>
           <Button onClick={restartQuiz} className="mt-4 w-full">
             Try Again
           </Button>
@@ -176,7 +241,6 @@ export default function QuizPage() {
               </Button>
             ))}
           </div>
-
           <Button
             className="mt-4 w-full"
             onClick={handleNext}
