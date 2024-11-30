@@ -80,7 +80,7 @@ export default function QuizPage() {
     }
   }, [currentIndex, flashcards]);
 
-  const saveQuizResult = (userAnswers: any) => {
+  const saveQuizResult = (userAnswers: string[]) => {
       const quizResult: QuizResult = {
         date: new Date().toISOString(),
         score,

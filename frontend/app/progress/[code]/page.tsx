@@ -104,9 +104,9 @@ export default function QuizPage() {
         new Date(r.date).toDateString()
       );
       const uniqueDates = new Set(dates);
-      const today = new Date().toDateString();
+
       let streak = 0;
-      let currentDate = new Date();
+      const currentDate = new Date();
 
       while (uniqueDates.has(currentDate.toDateString())) {
         streak++;
