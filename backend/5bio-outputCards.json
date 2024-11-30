@@ -1,0 +1,84 @@
+{
+    "cards": [
+        {
+            "front": "What is the purpose of the Energy Story rubric in understanding transcription?",
+            "back": "The Energy Story rubric is applied to develop a functional understanding of transcription by analyzing the process."
+        },
+        {
+            "front": "What is the goal of transcription in a cell?",
+            "back": "The goal of transcription is to make an RNA copy from one strand of a double-stranded DNA molecule. This process is crucial for the translation and expression of genetic information from DNA to the cellular level."
+        },
+        {
+            "front": "What allows us to infer key information for proper process description?",
+            "back": "Basic logic."
+        },
+        {
+            "front": "What is the purpose of using Design Challenge thinking to identify problems?",
+            "back": "Identifying problems with Design Challenge thinking enables us to break down complex issues into manageable subproblems that we can solve, such as finding ways to overcome obstacles or improve functionality."
+        },
+        {
+            "front": "What encoding methods will be used to convey start and stop site information to the machine?",
+            "back": "Start and stop site information can be represented using DNA base sequences, enabling machines to read and decode the data."
+        },
+        {
+            "front": "How many copies of DNA need to be translated into RNA for protein synthesis?",
+            "back": "1 copy of DNA can be translated into multiple RNA copies, but the exact number depends on the cellular needs and the specific process being carried out."
+        },
+        {
+            "front": "Is there more to explore?",
+            "back": "If one is interested, they can dig deeper into a topic or situation."
+        },
+        {
+            "front": "What is a sufficient level of understanding for a process?",
+            "back": "A process can be comprehended to a good extent when initial attempts yield satisfactory results."
+        },
+        {
+            "front": "What are the main components that make up RNA building blocks?",
+            "back": "They are nucleotide triphosphates, which are composed of a ribose sugar, a nitrogenous base, and three phosphate groups."
+        },
+        {
+            "front": "What is the primary difference between the nucleotide sugars found in RNA and DNA molecules?",
+            "back": "RNA contains ribose sugars, whereas DNA contains deoxyribose sugars."
+        },
+        {
+            "front": "What do proteins responsible for creating an RNA copy of a specific piece of DNA need to do first?",
+            "back": "They must first be able to recognize the beginning of the element to be copied, allowing transcription to proceed accurately."
+        },
+        {
+            "front": "What is the primary role of a promoter in the transcription process?",
+            "back": "A promoter is a DNA sequence to which proteins bind to initiate transcription. This binding allows the transcription machinery to start transcribing the genetic code."
+        },
+        {
+            "front": "What determines the frequency of gene transcription from a specific sequence?",
+            "back": "The frequency of gene transcription is determined by the specific sequence of a promoter. This sequence affects whether the corresponding coding portion of the gene is transcribed all the time, some of the time, or infrequently."
+        },
+        {
+            "front": "Where are the promoter consensus sequences typically found in DNA?",
+            "back": "Near the initiation site of promoters, approximately upstream."
+        },
+        {
+            "front": "What is characteristic of promoters with similar sequences to the consensus sequence?",
+            "back": "Promoters with similar sequences to the consensus sequence will have a sequence very similar to it, typically containing the most common sequence elements."
+        },
+        {
+            "front": "What is the purpose of regulating transcripts in a process?",
+            "back": "This helps to control the number of transcripts that are made and how often they get made."
+        },
+        {
+            "front": "What is the composition of the -10 region in bacterial cells?",
+            "back": "The -10 region is an AT-rich sequence, often containing the sequence TATAAT."
+        },
+        {
+            "front": "What is the specific DNA sequence recognized by the protein σ?",
+            "back": "A sequence of six nucleotides that starts with TTGACA is recognized and bound by the protein σ."
+        },
+        {
+            "front": "What happens after the protein-DNA interaction is established in the process of RNA polymerase activity?",
+            "back": "The subunits of the core RNA polymerase bind to the site."
+        },
+        {
+            "front": "What is a characteristic feature found in both eukaryotic and prokaryotic promoters?",
+            "back": "A TATA box, an AT-rich region, is a common feature."
+        }
+    ]
+}

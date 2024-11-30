@@ -1,0 +1,1378 @@
+{
+    "id": 1,
+    "created_at": "2024-11-29T12:00:00.000Z",
+    "started_at": "2024-11-29T11:00:00.000Z",
+    "finished_at": "2024-11-29T12:00:00.000Z",
+    "transcript": "",
+    "transcript_segments": [
+        {
+            "text": "Transcription is the process of",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 0.0,
+            "end": 5.0
+        },
+        {
+            "text": "creating an RNA copy of",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 5.0,
+            "end": 10.0
+        },
+        {
+            "text": "a segment of DNA. Since",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 10.0,
+            "end": 15.0
+        },
+        {
+            "text": "this is a process, we",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 15.0,
+            "end": 20.0
+        },
+        {
+            "text": "want to apply the Energy",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 20.0,
+            "end": 25.0
+        },
+        {
+            "text": "Story rubric to develop a",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 25.0,
+            "end": 30.0
+        },
+        {
+            "text": "functional understanding of transcription. What",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 30.0,
+            "end": 35.0
+        },
+        {
+            "text": "does the system of molecules",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 35.0,
+            "end": 40.0
+        },
+        {
+            "text": "look like before the start",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 40.0,
+            "end": 45.0
+        },
+        {
+            "text": "of the transcription? What does",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 45.0,
+            "end": 50.0
+        },
+        {
+            "text": "it look like at the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 50.0,
+            "end": 55.0
+        },
+        {
+            "text": "end? What transformations of matter",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 55.0,
+            "end": 60.0
+        },
+        {
+            "text": "and transfers of energy happen",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 60.0,
+            "end": 65.0
+        },
+        {
+            "text": "during the transcription and what",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 65.0,
+            "end": 70.0
+        },
+        {
+            "text": "if anything catalyzes the process?",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 70.0,
+            "end": 75.0
+        },
+        {
+            "text": "We also want to think",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 75.0,
+            "end": 80.0
+        },
+        {
+            "text": "about the process from a",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 80.0,
+            "end": 85.0
+        },
+        {
+            "text": "Design Challenge standpoint. If the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 85.0,
+            "end": 90.0
+        },
+        {
+            "text": "biological task is to create",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 90.0,
+            "end": 95.0
+        },
+        {
+            "text": "a copy of DNA in",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 95.0,
+            "end": 100.0
+        },
+        {
+            "text": "the chemical language of RNA,",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 100.0,
+            "end": 105.0
+        },
+        {
+            "text": "what challenges can we reasonably",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 105.0,
+            "end": 110.0
+        },
+        {
+            "text": "hypothesize or anticipate given our",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 110.0,
+            "end": 115.0
+        },
+        {
+            "text": "knowledge about other nucleotide polymer",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 115.0,
+            "end": 120.0
+        },
+        {
+            "text": "processes must be overcome? Is",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 120.0,
+            "end": 125.0
+        },
+        {
+            "text": "there evidence that Nature solved",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 125.0,
+            "end": 130.0
+        },
+        {
+            "text": "these problems in different ways?",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 130.0,
+            "end": 135.0
+        },
+        {
+            "text": "What seem to be the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 135.0,
+            "end": 140.0
+        },
+        {
+            "text": "criteria for success of transcription.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 140.0,
+            "end": 145.0
+        },
+        {
+            "text": "Let us first consider the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 145.0,
+            "end": 150.0
+        },
+        {
+            "text": "tasks at hand by using",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 150.0,
+            "end": 155.0
+        },
+        {
+            "text": "some of our foundational knowledge",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 155.0,
+            "end": 160.0
+        },
+        {
+            "text": "and imagining what might need",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 160.0,
+            "end": 165.0
+        },
+        {
+            "text": "to happen during transcription if",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 165.0,
+            "end": 170.0
+        },
+        {
+            "text": "the goal is to make",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 170.0,
+            "end": 175.0
+        },
+        {
+            "text": "an RNA copy of a",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 175.0,
+            "end": 180.0
+        },
+        {
+            "text": "piece of one strand of",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 180.0,
+            "end": 185.0
+        },
+        {
+            "text": "a double-stranded DNA molecule. We'll",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 185.0,
+            "end": 190.0
+        },
+        {
+            "text": "see that using some basic",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 190.0,
+            "end": 195.0
+        },
+        {
+            "text": "logic allows us to infer",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 195.0,
+            "end": 200.0
+        },
+        {
+            "text": "many of the important questions",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 200.0,
+            "end": 205.0
+        },
+        {
+            "text": "and things that we need",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 205.0,
+            "end": 210.0
+        },
+        {
+            "text": "to know in order to",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 210.0,
+            "end": 215.0
+        },
+        {
+            "text": "properly describe the process. We",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 215.0,
+            "end": 220.0
+        },
+        {
+            "text": "can use some Design Challenge",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 220.0,
+            "end": 225.0
+        },
+        {
+            "text": "thinking to identify problems and",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 225.0,
+            "end": 230.0
+        },
+        {
+            "text": "subproblems that need to be",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 230.0,
+            "end": 235.0
+        },
+        {
+            "text": "solved by our little robot.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 235.0,
+            "end": 240.0
+        },
+        {
+            "text": "Where should the machine start",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 240.0,
+            "end": 245.0
+        },
+        {
+            "text": "along the millions to billions",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 245.0,
+            "end": 250.0
+        },
+        {
+            "text": "of base pairs where should",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 250.0,
+            "end": 255.0
+        },
+        {
+            "text": "the machine be directed? Where",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 255.0,
+            "end": 260.0
+        },
+        {
+            "text": "should the machine stop? If",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 260.0,
+            "end": 265.0
+        },
+        {
+            "text": "we have start and stop",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 265.0,
+            "end": 270.0
+        },
+        {
+            "text": "sites we will need ways",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 270.0,
+            "end": 275.0
+        },
+        {
+            "text": "of encoding that information so",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 275.0,
+            "end": 280.0
+        },
+        {
+            "text": "that our machines can read",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 280.0,
+            "end": 285.0
+        },
+        {
+            "text": "this information how will that",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 285.0,
+            "end": 290.0
+        },
+        {
+            "text": "be accomplished? How many RNA",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 290.0,
+            "end": 295.0
+        },
+        {
+            "text": "copies of the DNA will",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 295.0,
+            "end": 300.0
+        },
+        {
+            "text": "we need to make? How",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 300.0,
+            "end": 305.0
+        },
+        {
+            "text": "fast do the RNA copies",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 305.0,
+            "end": 310.0
+        },
+        {
+            "text": "need to be made? How",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 310.0,
+            "end": 315.0
+        },
+        {
+            "text": "accurately do the copies need",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 315.0,
+            "end": 320.0
+        },
+        {
+            "text": "to be made? How much",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 320.0,
+            "end": 325.0
+        },
+        {
+            "text": "energy will the process take",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 325.0,
+            "end": 330.0
+        },
+        {
+            "text": "and where is the energy",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 330.0,
+            "end": 335.0
+        },
+        {
+            "text": "going to come from. These",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 335.0,
+            "end": 340.0
+        },
+        {
+            "text": "are only some of the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 340.0,
+            "end": 345.0
+        },
+        {
+            "text": "core questions. One can dig",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 345.0,
+            "end": 350.0
+        },
+        {
+            "text": "deeper if they wish. However",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 350.0,
+            "end": 355.0
+        },
+        {
+            "text": "these are already good enough",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 355.0,
+            "end": 360.0
+        },
+        {
+            "text": "for us to start getting",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 360.0,
+            "end": 365.0
+        },
+        {
+            "text": "a good feel for this",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 365.0,
+            "end": 370.0
+        },
+        {
+            "text": "process. Notice too that many",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 370.0,
+            "end": 375.0
+        },
+        {
+            "text": "of these questions are remarkably",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 375.0,
+            "end": 380.0
+        },
+        {
+            "text": "similar to those we inferred",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 380.0,
+            "end": 385.0
+        },
+        {
+            "text": "might be necessary to understand",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 385.0,
+            "end": 390.0
+        },
+        {
+            "text": "about DNA replication. The building",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 390.0,
+            "end": 395.0
+        },
+        {
+            "text": "blocks of RNA are very",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 395.0,
+            "end": 400.0
+        },
+        {
+            "text": "similar to those in DNA.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 400.0,
+            "end": 405.0
+        },
+        {
+            "text": "In RNA the building blocks",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 405.0,
+            "end": 410.0
+        },
+        {
+            "text": "consists of nucleotide triphosphates that",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 410.0,
+            "end": 415.0
+        },
+        {
+            "text": "are composed of a ribose",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 415.0,
+            "end": 420.0
+        },
+        {
+            "text": "sugar a nitrogenous base and",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 420.0,
+            "end": 425.0
+        },
+        {
+            "text": "three phosphate groups. The key",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 425.0,
+            "end": 430.0
+        },
+        {
+            "text": "differences between the building blocks",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 430.0,
+            "end": 435.0
+        },
+        {
+            "text": "of DNA and those of",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 435.0,
+            "end": 440.0
+        },
+        {
+            "text": "RNA are that RNA molecules",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 440.0,
+            "end": 445.0
+        },
+        {
+            "text": "are composed of nucleotides with",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 445.0,
+            "end": 450.0
+        },
+        {
+            "text": "ribose sugars as opposed to",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 450.0,
+            "end": 455.0
+        },
+        {
+            "text": "deoxyribose sugars and utilize uridine",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 455.0,
+            "end": 460.0
+        },
+        {
+            "text": "a uracil containing nucleotide as",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 460.0,
+            "end": 465.0
+        },
+        {
+            "text": "opposed to thymidine in DNA.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 465.0,
+            "end": 470.0
+        },
+        {
+            "text": "Note that uracil and thymine",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 470.0,
+            "end": 475.0
+        },
+        {
+            "text": "are structurally very similar the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 475.0,
+            "end": 480.0
+        },
+        {
+            "text": "uracil is just lacking a",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 480.0,
+            "end": 485.0
+        },
+        {
+            "text": "methyl functional group compared to",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 485.0,
+            "end": 490.0
+        },
+        {
+            "text": "thymine. Proteins responsible for creating",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 490.0,
+            "end": 495.0
+        },
+        {
+            "text": "an RNA copy of a",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 495.0,
+            "end": 500.0
+        },
+        {
+            "text": "specific piece of DNA transcription",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 500.0,
+            "end": 505.0
+        },
+        {
+            "text": "must first be able to",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 505.0,
+            "end": 510.0
+        },
+        {
+            "text": "recognize the beginning of the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 510.0,
+            "end": 515.0
+        },
+        {
+            "text": "element to be copied. A",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 515.0,
+            "end": 520.0
+        },
+        {
+            "text": "promoter is a DNA sequence",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 520.0,
+            "end": 525.0
+        },
+        {
+            "text": "onto which various proteins collectively",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 525.0,
+            "end": 530.0
+        },
+        {
+            "text": "known as the transcription machinery",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 530.0,
+            "end": 535.0
+        },
+        {
+            "text": "bind and initiates transcription. In",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 535.0,
+            "end": 540.0
+        },
+        {
+            "text": "most cases promoters exist upstream",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 540.0,
+            "end": 545.0
+        },
+        {
+            "text": "of the genes they regulate.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 545.0,
+            "end": 550.0
+        },
+        {
+            "text": "The specific sequence of a",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 550.0,
+            "end": 555.0
+        },
+        {
+            "text": "promoter is very important because",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 555.0,
+            "end": 560.0
+        },
+        {
+            "text": "it determines whether the corresponding",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 560.0,
+            "end": 565.0
+        },
+        {
+            "text": "coding portion of the gene",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 565.0,
+            "end": 570.0
+        },
+        {
+            "text": "is transcribed all the time",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 570.0,
+            "end": 575.0
+        },
+        {
+            "text": "some of the time or",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 575.0,
+            "end": 580.0
+        },
+        {
+            "text": "infrequently. Although promoters vary among",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 580.0,
+            "end": 585.0
+        },
+        {
+            "text": "species a few elements of",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 585.0,
+            "end": 590.0
+        },
+        {
+            "text": "similar sequence are sometimes conserved.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 590.0,
+            "end": 595.0
+        },
+        {
+            "text": "At the -10 and -35",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 595.0,
+            "end": 600.0
+        },
+        {
+            "text": "regions upstream of the initiation",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 600.0,
+            "end": 605.0
+        },
+        {
+            "text": "site there are two promoter",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 605.0,
+            "end": 610.0
+        },
+        {
+            "text": "consensus sequences or regions that",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 610.0,
+            "end": 615.0
+        },
+        {
+            "text": "are similar across many promoters",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 615.0,
+            "end": 620.0
+        },
+        {
+            "text": "and across various species. Some",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 620.0,
+            "end": 625.0
+        },
+        {
+            "text": "promoters will have a sequence",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 625.0,
+            "end": 630.0
+        },
+        {
+            "text": "very similar to the consensus",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 630.0,
+            "end": 635.0
+        },
+        {
+            "text": "sequence the sequence containing the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 635.0,
+            "end": 640.0
+        },
+        {
+            "text": "most common sequence elements and",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 640.0,
+            "end": 645.0
+        },
+        {
+            "text": "others will look very different.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 645.0,
+            "end": 650.0
+        },
+        {
+            "text": "These sequence variations affect the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 650.0,
+            "end": 655.0
+        },
+        {
+            "text": "strength to which the transcriptional",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 655.0,
+            "end": 660.0
+        },
+        {
+            "text": "machinery can bind to the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 660.0,
+            "end": 665.0
+        },
+        {
+            "text": "promoter to initiate transcription. This",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 665.0,
+            "end": 670.0
+        },
+        {
+            "text": "helps to control the number",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 670.0,
+            "end": 675.0
+        },
+        {
+            "text": "of transcripts that are made",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 675.0,
+            "end": 680.0
+        },
+        {
+            "text": "and how often they get",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 680.0,
+            "end": 685.0
+        },
+        {
+            "text": "made. In bacterial cells the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 685.0,
+            "end": 690.0
+        },
+        {
+            "text": "-10 consensus sequence called the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 690.0,
+            "end": 695.0
+        },
+        {
+            "text": "-10 region is AT rich",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 695.0,
+            "end": 700.0
+        },
+        {
+            "text": "often TATAAT. The -35 sequence",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 700.0,
+            "end": 705.0
+        },
+        {
+            "text": "TTGACA is recognized and bound",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 705.0,
+            "end": 710.0
+        },
+        {
+            "text": "by the protein \u03c3. Once",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 710.0,
+            "end": 715.0
+        },
+        {
+            "text": "this protein-DNA interaction is made",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 715.0,
+            "end": 720.0
+        },
+        {
+            "text": "the subunits of the core",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 720.0,
+            "end": 725.0
+        },
+        {
+            "text": "RNA polymerase bind to the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 725.0,
+            "end": 730.0
+        },
+        {
+            "text": "site. Due to the relatively",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 730.0,
+            "end": 735.0
+        },
+        {
+            "text": "lower stability of AT associations",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 735.0,
+            "end": 740.0
+        },
+        {
+            "text": "the AT-rich -10 region facilitates",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 740.0,
+            "end": 745.0
+        },
+        {
+            "text": "unwinding of the DNA template",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 745.0,
+            "end": 750.0
+        },
+        {
+            "text": "and several phosphodiester bonds are",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 750.0,
+            "end": 755.0
+        },
+        {
+            "text": "made. Eukaryotic promoters are much",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 755.0,
+            "end": 760.0
+        },
+        {
+            "text": "larger and more complex than",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 760.0,
+            "end": 765.0
+        },
+        {
+            "text": "prokaryotic promoters but both have",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 765.0,
+            "end": 770.0
+        },
+        {
+            "text": "an AT-rich region in eukaryotes",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 770.0,
+            "end": 775.0
+        },
+        {
+            "text": "it is typically called a",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 775.0,
+            "end": 780.0
+        },
+        {
+            "text": "TATA box. For example in",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 780.0,
+            "end": 785.0
+        },
+        {
+            "text": "the mouse thymidine kinase gene",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 785.0,
+            "end": 790.0
+        },
+        {
+            "text": "the TATA box is located",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 790.0,
+            "end": 795.0
+        },
+        {
+            "text": "at approximately -30. For this",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 795.0,
+            "end": 800.0
+        },
+        {
+            "text": "gene the exact TATA box",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 800.0,
+            "end": 805.0
+        },
+        {
+            "text": "sequence is TATAAAA as read",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 805.0,
+            "end": 810.0
+        },
+        {
+            "text": "in the 5 to 3",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 810.0,
+            "end": 815.0
+        },
+        {
+            "text": "direction on the nontemplate strand.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 815.0,
+            "end": 820.0
+        },
+        {
+            "text": "This sequence is not identical",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 820.0,
+            "end": 825.0
+        },
+        {
+            "text": "to the E. coli -10",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 825.0,
+            "end": 830.0
+        },
+        {
+            "text": "region but both share the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 830.0,
+            "end": 835.0
+        },
+        {
+            "text": "quality of being AT-rich element.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 835.0,
+            "end": 840.0
+        }
+    ],
+    "photos": [],
+    "structured": {
+        "title": "Understanding Transcription",
+        "overview": "Exploration of transcription, its building blocks, and challenges using Energy Story and Design Challenge frameworks.",
+        "emoji": "\ud83e\uddec",
+        "category": "science",
+        "action_items": [
+            {
+                "description": "Identify transcription start and stop sites.",
+                "completed": false
+            },
+            {
+                "description": "Analyze energy requirements for RNA synthesis.",
+                "completed": false
+            }
+        ],
+        "events": []
+    },
+    "apps_response": [
+        {
+            "app_id": "transcription-analysis-app",
+            "content": "Analyze RNA synthesis and transcription mechanisms."
+        }
+    ],
+    "discarded": false
+}
