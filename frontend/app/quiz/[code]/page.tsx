@@ -230,18 +230,19 @@ export default function QuizPage() {
           />
           <div className="text-lg mb-4">{flashcards[currentIndex].front}</div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="md:grid grid-cols-2 gap-4">
             {answers.map((answer, index) => (
               <Button
                 key={index}
                 variant={selectedAnswer === answer ? "default" : "outline"}
-                className="h-24 whitespace-normal"
+                className="flex flex-col justify-between items-start max-md:h-fit md:h-[125px] p-4 text-left whitespace-normal overflow-y-auto max-md:my-2 w-full"
                 onClick={() => setSelectedAnswer(answer)}
               >
                 {answer}
               </Button>
             ))}
           </div>
+
           <Button
             className="mt-4 w-full"
             onClick={handleNext}

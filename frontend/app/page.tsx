@@ -22,7 +22,7 @@ import {
 } from "@/components/ui/table";
 import { useToast } from "@/hooks/use-toast";
 import { useSearchParams } from "next/navigation";
-import { Trash, Edit2 } from "lucide-react";
+import { Trash, Edit2, Share } from "lucide-react";
 
 interface FlashcardSet {
   title: string;
@@ -503,7 +503,9 @@ export default function Home() {
                       onChange={(e) => setNewTitle(e.target.value)}
                       className="mr-2"
                     />
-                    <Button size="sm" onClick={handleTitleSave}>Save</Button>
+                    <Button size="sm" onClick={handleTitleSave}>
+                      Save
+                    </Button>
                   </div>
                 ) : (
                   <div className="flex items-center">
@@ -532,13 +534,18 @@ export default function Home() {
                       Quiz
                     </Button>
                   </Link>
+                  <Link href={`/progress/${set.code}`}>
+                    <Button variant="outline" size="sm" className="ml-2">
+                      Progress
+                    </Button>
+                  </Link>
                   <Button
                     variant="outline"
                     size="sm"
                     className="ml-2"
                     onClick={() => copyLink(set.code, set.title)}
                   >
-                    Share
+                    <Share size={16}/>
                   </Button>
                   {set.uid ? (
                     <Button
