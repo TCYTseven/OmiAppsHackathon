@@ -80,10 +80,10 @@ export default function QuizPage() {
     }
   }, [currentIndex, flashcards]);
 
-  const saveQuizResult = (userAnswers: string[]) => {
+  const saveQuizResult = (userAnswers: string[], _score: number) => {
       const quizResult: QuizResult = {
         date: new Date().toISOString(),
-        score,
+        score: _score,
         totalQuestions: flashcards.length,
         answers: flashcards.map((flashcard, index) => ({
           question: flashcard.front,
@@ -130,6 +130,7 @@ export default function QuizPage() {
     if (!selectedAnswer) return;
 
     const isCorrect = selectedAnswer === flashcards[currentIndex].back;
+    const newScore = score + 1;
     if (isCorrect) {
       setScore(score + 1);
     }
@@ -141,7 +142,7 @@ export default function QuizPage() {
       setSelectedAnswer("");
     } else {
       setShowResults(true);
-      saveQuizResult([...userAnswers, selectedAnswer]);
+      saveQuizResult([...userAnswers, selectedAnswer], newScore);
     }
   };
 
