@@ -1,6 +1,6 @@
 # OmiAppsHackathon
 
-This app is a learning tool that transforms lesson notes into customized flashcards, by leveraging transcripts and AI to create interactive study aids. It converts audio content into text, and then utilizies AI to make impactful flashcards. Next, it publishes your flashcards with a unique code, making the flashcards accessible on both phones and laptops for efficient review.
+**ListenLearn revolutionizes learning outside of the classroom.**
 
 ## Inspiration 💡
 As students, we understand the time consuming and ineffective methods that others use. Studying often requires a **complete memory of lessons** and the time for the **tedious process** of making flashcards, practice tests, etc. Automated Flashcards eliminates these needs using Omi.
@@ -9,7 +9,7 @@ As students, we understand the time consuming and ineffective methods that other
 Automated Flashcards uses the power of AI to **transform** your lessons and lectures into **easy to study** and impactful flashcards on a custom studying website.
 
 ## How we built it 💻
-For the frontend, we used Next.js, MongoDB and Tailwind to create a **seamless UI** allowing the addition, modifications, sharing and studying of customized flashcards.
+![image](https://github.com/user-attachments/assets/55efa94f-75ad-45e8-bb22-34387778e7a5)
 
 ## Challenges we ran into 💪
 As we built our studying frontend **from scratch**,  integrating with Omi was more challenging than just having a user login to an external service. We developed a process in which users set up accounts and sync their frontend with their account to access their personalized sets, and can add and share sets to others.
