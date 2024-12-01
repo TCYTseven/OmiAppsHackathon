@@ -1,0 +1,650 @@
+{
+    "id": 1,
+    "created_at": "2024-11-29T12:00:00.000Z",
+    "started_at": "2024-11-29T11:00:00.000Z",
+    "finished_at": "2024-11-29T12:00:00.000Z",
+    "transcript": "",
+    "transcript_segments": [
+        {
+            "text": "Ancient Carnatic music, deeply rooted",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 0.0,
+            "end": 5.0
+        },
+        {
+            "text": "in the cultural and spiritual",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 5.0,
+            "end": 10.0
+        },
+        {
+            "text": "fabric of South India, is",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 10.0,
+            "end": 15.0
+        },
+        {
+            "text": "one of the oldest and",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 15.0,
+            "end": 20.0
+        },
+        {
+            "text": "most refined systems of classical",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 20.0,
+            "end": 25.0
+        },
+        {
+            "text": "music in the world. Its",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 25.0,
+            "end": 30.0
+        },
+        {
+            "text": "origins trace back to the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 30.0,
+            "end": 35.0
+        },
+        {
+            "text": "Vedic period, with its foundational",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 35.0,
+            "end": 40.0
+        },
+        {
+            "text": "elements found in ancient texts",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 40.0,
+            "end": 45.0
+        },
+        {
+            "text": "like the Samaveda, which detailed",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 45.0,
+            "end": 50.0
+        },
+        {
+            "text": "chants and melodies used in",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 50.0,
+            "end": 55.0
+        },
+        {
+            "text": "rituals. Over centuries, Carnatic music",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 55.0,
+            "end": 60.0
+        },
+        {
+            "text": "evolved into a structured system,",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 60.0,
+            "end": 65.0
+        },
+        {
+            "text": "blending sacred verses with intricate",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 65.0,
+            "end": 70.0
+        },
+        {
+            "text": "musical frameworks, often used as",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 70.0,
+            "end": 75.0
+        },
+        {
+            "text": "a medium for devotion and",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 75.0,
+            "end": 80.0
+        },
+        {
+            "text": "storytelling. The compositions typically emphasize",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 80.0,
+            "end": 85.0
+        },
+        {
+            "text": "bhakti (devotion) and serve as",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 85.0,
+            "end": 90.0
+        },
+        {
+            "text": "a pathway to connect the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 90.0,
+            "end": 95.0
+        },
+        {
+            "text": "soul with the divine. The",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 95.0,
+            "end": 100.0
+        },
+        {
+            "text": "theoretical foundation of Carnatic music",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 100.0,
+            "end": 105.0
+        },
+        {
+            "text": "lies in the concept of",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 105.0,
+            "end": 110.0
+        },
+        {
+            "text": "ragas (melodic frameworks) and talas",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 110.0,
+            "end": 115.0
+        },
+        {
+            "text": "(rhythmic cycles), which are both",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 115.0,
+            "end": 120.0
+        },
+        {
+            "text": "highly structured and versatile. A",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 120.0,
+            "end": 125.0
+        },
+        {
+            "text": "raga provides a set of",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 125.0,
+            "end": 130.0
+        },
+        {
+            "text": "notes and aesthetic rules for",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 130.0,
+            "end": 135.0
+        },
+        {
+            "text": "improvisation, while a tala dictates",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 135.0,
+            "end": 140.0
+        },
+        {
+            "text": "the rhythmic structure. Together, they",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 140.0,
+            "end": 145.0
+        },
+        {
+            "text": "offer infinite possibilities for creativity,",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 145.0,
+            "end": 150.0
+        },
+        {
+            "text": "making each performance unique. Ancient",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 150.0,
+            "end": 155.0
+        },
+        {
+            "text": "musicologists like Bharata and Matanga",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 155.0,
+            "end": 160.0
+        },
+        {
+            "text": "laid the groundwork for these",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 160.0,
+            "end": 165.0
+        },
+        {
+            "text": "principles, with the Natya Shastra",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 165.0,
+            "end": 170.0
+        },
+        {
+            "text": "and Brihaddeshi serving as seminal",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 170.0,
+            "end": 175.0
+        },
+        {
+            "text": "texts that influenced its development.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 175.0,
+            "end": 180.0
+        },
+        {
+            "text": "Carnatic music is closely associated",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 180.0,
+            "end": 185.0
+        },
+        {
+            "text": "with the temple culture of",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 185.0,
+            "end": 190.0
+        },
+        {
+            "text": "South India, where it was",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 190.0,
+            "end": 195.0
+        },
+        {
+            "text": "traditionally performed as part of",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 195.0,
+            "end": 200.0
+        },
+        {
+            "text": "religious ceremonies. Its repertoire includes",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 200.0,
+            "end": 205.0
+        },
+        {
+            "text": "compositions by legendary saint-composers like",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 205.0,
+            "end": 210.0
+        },
+        {
+            "text": "Tyagaraja, Muthuswami Dikshitar, and Syama",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 210.0,
+            "end": 215.0
+        },
+        {
+            "text": "Sastri, collectively known as the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 215.0,
+            "end": 220.0
+        },
+        {
+            "text": "Trinity of Carnatic Music. These",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 220.0,
+            "end": 225.0
+        },
+        {
+            "text": "composers created masterpieces that are",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 225.0,
+            "end": 230.0
+        },
+        {
+            "text": "still performed today, blending profound",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 230.0,
+            "end": 235.0
+        },
+        {
+            "text": "philosophical themes with intricate musical",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 235.0,
+            "end": 240.0
+        },
+        {
+            "text": "patterns. Their works, often written",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 240.0,
+            "end": 245.0
+        },
+        {
+            "text": "in Telugu, Sanskrit, and Tamil,",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 245.0,
+            "end": 250.0
+        },
+        {
+            "text": "embody the spiritual essence and",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 250.0,
+            "end": 255.0
+        },
+        {
+            "text": "technical brilliance of the genre.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 255.0,
+            "end": 260.0
+        },
+        {
+            "text": "Unlike other classical music traditions,",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 260.0,
+            "end": 265.0
+        },
+        {
+            "text": "Carnatic music remains deeply tied",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 265.0,
+            "end": 270.0
+        },
+        {
+            "text": "to oral transmission, with its",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 270.0,
+            "end": 275.0
+        },
+        {
+            "text": "techniques and compositions passed down",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 275.0,
+            "end": 280.0
+        },
+        {
+            "text": "through generations of gurus and",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 280.0,
+            "end": 285.0
+        },
+        {
+            "text": "disciples. This method ensures that",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 285.0,
+            "end": 290.0
+        },
+        {
+            "text": "the music retains its authenticity",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 290.0,
+            "end": 295.0
+        },
+        {
+            "text": "while allowing room for innovation.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 295.0,
+            "end": 300.0
+        },
+        {
+            "text": "The emphasis on improvisation, particularly",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 300.0,
+            "end": 305.0
+        },
+        {
+            "text": "in sections like alapana (melodic",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 305.0,
+            "end": 310.0
+        },
+        {
+            "text": "improvisation) and kalpana swaras (spontaneous",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 310.0,
+            "end": 315.0
+        },
+        {
+            "text": "note sequences), showcases the artist's",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 315.0,
+            "end": 320.0
+        },
+        {
+            "text": "creativity and command over the",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 320.0,
+            "end": 325.0
+        },
+        {
+            "text": "raga. In modern times, Carnatic",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 325.0,
+            "end": 330.0
+        },
+        {
+            "text": "music continues to thrive as",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 330.0,
+            "end": 335.0
+        },
+        {
+            "text": "a living tradition, celebrated in",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 335.0,
+            "end": 340.0
+        },
+        {
+            "text": "concerts, festivals, and educational institutions",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 340.0,
+            "end": 345.0
+        },
+        {
+            "text": "worldwide. Its timeless appeal lies",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 345.0,
+            "end": 350.0
+        },
+        {
+            "text": "in its ability to balance",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 350.0,
+            "end": 355.0
+        },
+        {
+            "text": "the rigor of classical discipline",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 355.0,
+            "end": 360.0
+        },
+        {
+            "text": "with the emotive power of",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 360.0,
+            "end": 365.0
+        },
+        {
+            "text": "devotion, making it not just",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 365.0,
+            "end": 370.0
+        },
+        {
+            "text": "an art form but a",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 370.0,
+            "end": 375.0
+        },
+        {
+            "text": "spiritual journey for both performers",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 375.0,
+            "end": 380.0
+        },
+        {
+            "text": "and listeners.",
+            "speaker": "SPEAKER_00",
+            "speakerId": 0,
+            "is_user": false,
+            "start": 380.0,
+            "end": 385.0
+        }
+    ],
+    "photos": [],
+    "structured": {
+        "title": "Understanding Transcription",
+        "overview": "Exploration of transcription, its building blocks, and challenges using Energy Story and Design Challenge frameworks.",
+        "emoji": "\ud83e\uddec",
+        "category": "science",
+        "action_items": [
+            {
+                "description": "Identify transcription start and stop sites.",
+                "completed": false
+            },
+            {
+                "description": "Analyze energy requirements for RNA synthesis.",
+                "completed": false
+            }
+        ],
+        "events": []
+    },
+    "apps_response": [
+        {
+            "app_id": "transcription-analysis-app",
+            "content": "Analyze RNA synthesis and transcription mechanisms."
+        }
+    ],
+    "discarded": false
+}

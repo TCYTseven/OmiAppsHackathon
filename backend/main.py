@@ -185,6 +185,46 @@ async def send_cards(request: Request, uid: str = Query(...)):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.post("/webhook")
+async def webhook(request: Request, uid: str = Query(...)):
+    try:
+        payload = await request.json()
+        transcript_segments = payload.get("transcript_segments", [])
+        if not transcript_segments:
+            raise HTTPException(status_code=400, detail="Transcript segments are missing")
+
+        transcript = " ".join(segment["text"] for segment in transcript_segments)
+
+        # Generate flashcards
+        flashcards = create_flashcards(transcript, max_cards=20)
+        flashcards_list = [{"front": flashcard.front, "back": flashcard.back} for flashcard in flashcards]
+
+        # Send flashcards to the API to get the access code
+        async with httpx.AsyncClient() as client:
+            response = await client.post(
+                "https://omi-apps-hackathon.vercel.app/api/sets/new",
+                json={"cards": flashcards_list, "uid": uid, "title": "Unnamed Set"}
+            )
+
+        if response.status_code == 201:
+            response_data = response.json()
+            set_code = response_data.get("code", "Unknown")
+            return {
+                "status": "success",
+                "message": "Flashcards sent successfully.",
+                "set_code": set_code,
+                "code": 200,
+            }
+        else:
+            return {
+                "status": "result",
+                "message": response.text,
+                "code": response.status_code,
+            }
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 @app.get("/")
 async def root():
