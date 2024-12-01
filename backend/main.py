@@ -23,7 +23,19 @@ else:
 
 cerebras_client = Cerebras(api_key=API_KEY)
 
-app = FastAPI()
+app = FastAPI(
+    title="ListenLearn API",
+    description=(
+        "ListenLearn is an API that allows users to process text transcripts and generate "
+        "flashcards using AI-powered text rewriting. Users can send transcripts, receive flashcards, "
+        "and send them to an external API for storage and sharing."
+    ),
+    version="1.0.0",
+    contact={
+        "name": "Tejas and Henry",
+        "email": "tejas@hackunited.org",
+    },
+)
 
 class Flashcard(BaseModel):
     front: str
@@ -110,8 +122,8 @@ def create_flashcards(transcript: str, max_cards: int = 20) -> list[Flashcard]:
     return flashcards
 
 
-@app.post("/webhook")
-async def process_transcript(request: Request):
+@app.post("/generate")
+async def generate_flashcards(request: Request):
     try:
         payload = await request.json()
         transcript_segments = payload.get("transcript_segments", [])
@@ -119,7 +131,6 @@ async def process_transcript(request: Request):
             raise HTTPException(status_code=400, detail="Transcript segments are missing")
 
         transcript = " ".join(segment["text"] for segment in transcript_segments)
-
         flashcards = create_flashcards(transcript, max_cards=20)
 
         flashcards_list = [{"front": flashcard.front, "back": flashcard.back} for flashcard in flashcards]
@@ -177,4 +188,4 @@ async def send_cards(request: Request, uid: str = Query(...)):
 
 @app.get("/")
 async def root():
-    return {"message": "Enhanced Quizlet-style Flashcard Generator is running!"}
+    return {"message": "we are live!"}
